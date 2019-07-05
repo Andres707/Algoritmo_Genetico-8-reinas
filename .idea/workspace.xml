@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Funciones.py" line="44" />
+    <bookmark url="file://$PROJECT_DIR$/Funciones.py" line="40" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bc7321-b8ad-4f3f-b0f2-2e3e2000a38e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Funciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/Funciones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__main__" beforeDir="false" afterPath="$PROJECT_DIR$/__main__" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,35 +18,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/__main__">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="87" column="50" lean-forward="true" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
-              <folding>
-                <element signature="e#380#737#0" />
-                <element signature="e#786#1156#0" />
-                <element signature="e#1303#2948#0" />
-                <element signature="e#3185#3310#0" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="94" column="28" lean-forward="true" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Funciones.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="-16">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#93#134#0" />
                 <element signature="e#177#243#0" />
-                <element signature="e#287#845#0" />
-                <element signature="e#891#1418#0" />
-                <element signature="e#1459#2210#0" />
-                <element signature="e#2186#2327#0" />
-                <element signature="e#2454#2732#0" />
+                <element signature="e#929#1456#0" />
+                <element signature="e#1497#2256#0" />
+                <element signature="e#2299#2440#0" />
+                <element signature="e#2492#2809#0" />
               </folding>
             </state>
           </provider>
@@ -76,8 +69,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/__main__" />
         <option value="$PROJECT_DIR$/Funciones.py" />
+        <option value="$PROJECT_DIR$/__main__" />
       </list>
     </option>
   </component>
@@ -93,6 +86,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,14 +94,25 @@
               <item name="Algoritmo_Genetico" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algoritmo_Genetico" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algoritmo_Genetico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algoritmo_Genetico" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algoritmo_Genetico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algoritmo_Genetico" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -171,6 +176,7 @@
       <workItem from="1562128586526" duration="6258000" />
       <workItem from="1562248488348" duration="4187000" />
       <workItem from="1562258147470" duration="14855000" />
+      <workItem from="1562298846208" duration="3382000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando proyecto">
       <created>1561749362709</created>
@@ -190,13 +196,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53259000" />
+    <option name="totallyTimeSpent" value="56641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.502439" side_tool="true" weight="0.24281392" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49756098" visible="true" weight="0.12481089" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49756098" visible="true" weight="0.12632374" />
       <window_info id="Structure" order="2" sideWeight="0.502439" side_tool="true" weight="0.24281392" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -206,7 +212,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49848714" weight="0.7806874" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49848714" visible="true" weight="0.7806874" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -257,7 +263,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Algoritmo_Genetico$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1562273681049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algoritmo_Genetico$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1562300149557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1738601605/builtins.py">
@@ -288,33 +294,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__main__">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="87" column="50" lean-forward="true" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
-          <folding>
-            <element signature="e#380#737#0" />
-            <element signature="e#786#1156#0" />
-            <element signature="e#1303#2948#0" />
-            <element signature="e#3185#3310#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Funciones.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-16">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#93#134#0" />
             <element signature="e#177#243#0" />
-            <element signature="e#287#845#0" />
-            <element signature="e#891#1418#0" />
-            <element signature="e#1459#2210#0" />
-            <element signature="e#2186#2327#0" />
-            <element signature="e#2454#2732#0" />
+            <element signature="e#929#1456#0" />
+            <element signature="e#1497#2256#0" />
+            <element signature="e#2299#2440#0" />
+            <element signature="e#2492#2809#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__main__">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="94" column="28" lean-forward="true" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
         </state>
       </provider>
     </entry>
