@@ -12,25 +12,21 @@ def cadenaN(numerolimite):
     shuffle(x)
     return x
 #Valoracion
-def valoracion(matriz,np):
+def valoracion(Matriz,np):
     Valor = []
     contador = 0
-    ax=0
     for m in range(np):
+        matriz=Matriz[m]
         for i in range(8):
-            oi = matriz[m][i]
+            oi = matriz[i]
             for j in range(8):
-                if(i>0):
-                    oj = matriz[ax][j]
-                else:
-                    oj=matriz[i][j]
+                oj=matriz[j]
                 if(i != j):
                     _v1=math.fabs(oi-oj)
-                    _v2=math.fabs(i+1-j+1)
+                    _v2=math.fabs(i-j)
                     if(_v1 == _v2):
                         contador=contador+1
-        ax = ax + 1
-        #contador=round(contador/2,0)
+        contador=round(contador/2,0)
         Valor.append(contador)
         contador=contador*0
     return Valor

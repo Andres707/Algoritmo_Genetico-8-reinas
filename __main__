@@ -91,6 +91,6 @@ for i in range(poblacion):
        print ("Individuo", (i+1), ": ", Matriz[i],"Fitnes :",Fitnes[i])
        if(Fitnes[Ganador]>Fitnes[i]):
             Ganador=i
-print("numero de indibiduaos con un 0: ",axx)
+print("numero de individuaos con un 0: ",axx)
 print("Ganador: ",Ganador+1)
 print(Matriz[Ganador])
