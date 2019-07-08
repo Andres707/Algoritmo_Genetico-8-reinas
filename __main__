@@ -87,12 +87,18 @@ for secuencia in range(re):
 print("-------------------------Fin-----------------------------------")
 Fitnes = (Funciones.valoracion(Matriz, poblacion))
 Ganador=0
+libro=open('Ganadores.txt','a')
 for i in range(poblacion):
        print ("Individuo", (i+1), ": ", Matriz[i],"Fitnes :",Fitnes[i])
        if(Fitnes[Ganador]>Fitnes[i]):
             Ganador=i
+       if (Fitnes[i] == 0):
+           parrafo='Inividuo ',(i+1),': ',Matriz[i],"Fitness: ",Fitnes[i]
+           parrafo=str(parrafo)
+           libro.write('\n' + parrafo)
+libro.close()
+
 print("numero de individuaos con un 0: ",axx)
 print("Ganador: ",Ganador+1)
 print("Ganador: ",Matriz[Ganador],"Fitness: ",Fitnes[Ganador])
-for i in range (poblacion):
-    if(matr)
+
