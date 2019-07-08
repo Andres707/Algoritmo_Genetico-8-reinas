@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bc7321-b8ad-4f3f-b0f2-2e3e2000a38e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Funciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/Funciones.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__main__" beforeDir="false" afterPath="$PROJECT_DIR$/__main__" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/__main__">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="94" column="28" lean-forward="true" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+            <state relative-caret-position="276">
+              <caret line="95" column="60" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -30,26 +32,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Funciones.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
-              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+            <state relative-caret-position="476">
+              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#93#134#0" />
-                <element signature="e#177#243#0" />
-                <element signature="e#929#1456#0" />
-                <element signature="e#1497#2256#0" />
-                <element signature="e#2299#2440#0" />
-                <element signature="e#2492#2809#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/Lib/random.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="183" selection-start-line="183" selection-end-line="183" />
             </state>
           </provider>
         </entry>
@@ -93,17 +80,6 @@
             <path>
               <item name="Algoritmo_Genetico" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algoritmo_Genetico" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algoritmo_Genetico" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmo_Genetico" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algoritmo_Genetico" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algoritmo_Genetico" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,7 +152,11 @@
       <workItem from="1562128586526" duration="6258000" />
       <workItem from="1562248488348" duration="4187000" />
       <workItem from="1562258147470" duration="14855000" />
-      <workItem from="1562298846208" duration="3382000" />
+      <workItem from="1562303196265" duration="193000" />
+      <workItem from="1562343516497" duration="1618000" />
+      <workItem from="1562347383322" duration="383000" />
+      <workItem from="1562351350461" duration="2234000" />
+      <workItem from="1562605998911" duration="1236000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando proyecto">
       <created>1561749362709</created>
@@ -196,23 +176,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56641000" />
+    <option name="totallyTimeSpent" value="58923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.502439" side_tool="true" weight="0.24281392" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49756098" visible="true" weight="0.12632374" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49756098" visible="true" weight="0.22541603" />
       <window_info id="Structure" order="2" sideWeight="0.502439" side_tool="true" weight="0.24281392" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5015129" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49848714" visible="true" weight="0.7806874" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49848714" visible="true" weight="0.30278233" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -263,7 +243,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Algoritmo_Genetico$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1562300149557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algoritmo_Genetico$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1562607125101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1738601605/builtins.py">
@@ -289,31 +269,25 @@
     </entry>
     <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="529">
           <caret line="183" selection-start-line="183" selection-end-line="183" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Funciones.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        <state relative-caret-position="476">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#93#134#0" />
-            <element signature="e#177#243#0" />
-            <element signature="e#929#1456#0" />
-            <element signature="e#1497#2256#0" />
-            <element signature="e#2299#2440#0" />
-            <element signature="e#2492#2809#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/__main__">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="94" column="28" lean-forward="true" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+        <state relative-caret-position="276">
+          <caret line="95" column="60" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
         </state>
       </provider>
     </entry>

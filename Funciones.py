@@ -57,7 +57,7 @@ def cruse(Ganadores,matriz):
     Ganadores[0]=Ganadores[0]-1
     Ganadores[1]=Ganadores[1]-1
     a1 = random.randrange(1,8)
-    print('Alelo donde se segmenta: ',a1)
+    #print('Alelo donde se segmenta: ',a1)
     ax1=a1
     for j in range(2):
         for i in range(a1):
@@ -94,10 +94,10 @@ def seleccion(padres,hijos,matriz):
         ax="[11]"
     else:
         ax="[0]"
-        print("sin Cambios entre el hijo 1")
+        #print("sin Cambios entre el hijo 1")
     if(hijos[1]<matriz[padres[1]]):
         ax=ax+" [22]"
     else:
         ax="[0]"
-        print("sin Cambios entre el hijo 2")
+        #print("sin Cambios entre el hijo 2")
     return ax

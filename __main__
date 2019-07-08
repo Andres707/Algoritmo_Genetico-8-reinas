@@ -40,19 +40,19 @@ for secuencia in range(re):
     print("Repeticion ",secuencia+1)
     #Sacamos Fitness
     Fitnes=(Funciones.valoracion(Matriz,poblacion))
-    for fit in range (poblacion):
-        print("Fitnes Individuo", (fit+1),":", Fitnes[fit])
+    #for fit in range (poblacion):
+        #print("Fitnes Individuo", (fit+1),":", Fitnes[fit])
     axx=Fitnes.count(0)
     #Obtener ganadores
     Ganadores=(Funciones.torneo(Fitnes,poblacion))
-    for gan in range (2):
-        print("Padre", (gan+1),":", Ganadores[gan])
+    #for gan in range (2):
+        #print("Padre", (gan+1),":", Ganadores[gan])
     #Probabilidad Cruse
     probCruce = Funciones.Probabilidad()
-    print("Probabilidad aleatoria: ", probCruce)
+    #print("Probabilidad aleatoria: ", probCruce)
     if(probCruce>proCruse):
         hijos = []
-        print("hijos igual a los padres")
+        #print("hijos igual a los padres")
         Ganadores[0]=Ganadores[0]-1
         Ganadores[1]=Ganadores[1]-1
         for hj in range(2):
@@ -61,29 +61,29 @@ for secuencia in range(re):
     else:
         hijos=Funciones.cruse(Ganadores,Matriz)
     #Fin Probabilidad Cruse
-    for hj in range(2):
-        print("hijo",hj+1,": ",hijos[hj])
+    #for hj in range(2):
+        #print("hijo",hj+1,": ",hijos[hj])
     #Probabilidad Mutacion
     probMutacion = Funciones.Probabilidad()
-    print("Probabilidad aleatoria: ", probMutacion)
+    #print("Probabilidad aleatoria: ", probMutacion)
     if(probMutacion>proMutacion):
         print("sin mutacion")
     else:
         for hm in range(2):
             hijos[hm] = Funciones.mutacion_un_hijo(hijos[hm])
-        for hj in range(2):
-            print("hijo", hj + 1, ": ", hijos[hj])
+        #for hj in range(2):
+            #print("hijo", hj + 1, ": ", hijos[hj])
     #Fin Probabilidad Mutacion
     FitnesHijos=Funciones.valoracion(hijos,2)
-    for fh in range(2):
-        print("hijo Fitnes", fh + 1, ": ", FitnesHijos[fh])
+    #for fh in range(2):
+        #print("hijo Fitnes", fh + 1, ": ", FitnesHijos[fh])
     sel=Funciones.seleccion(Ganadores,FitnesHijos,Fitnes)
     if(sel[0]==11):
         Matriz[Ganadores[0]]=hijos[0]
     if(sel[1]==22):
         Matriz[Ganadores[1]]=hijos[1]
-    for i in range(poblacion):
-        print ("Individuo", (i+1), ": ", Matriz[i])
+    #for i in range(poblacion):
+        #print ("Individuo", (i+1), ": ", Matriz[i])
 print("-------------------------Fin-----------------------------------")
 Fitnes = (Funciones.valoracion(Matriz, poblacion))
 Ganador=0
@@ -93,4 +93,6 @@ for i in range(poblacion):
             Ganador=i
 print("numero de individuaos con un 0: ",axx)
 print("Ganador: ",Ganador+1)
-print(Matriz[Ganador])
+print("Ganador: ",Matriz[Ganador],"Fitness: ",Fitnes[Ganador])
+for i in range (poblacion):
+    if(matr)
